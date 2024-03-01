@@ -1,0 +1,450 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "GestorOpiniones",
+    "dateExported": "2024-03-01T17:40:49.560Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "e93f111b-8b7e-4f75-bc2b-224a9080bc48",
+            "name": "USER",
+            "containerId": "",
+            "created": "2024-03-01T17:36:28.944Z",
+            "sortNum": 10000,
+            "settings": {
+                "headers": [
+                    {
+                        "name": "authorization",
+                        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWRlYmExZjFlZTY4MGUxNDYxM2Y1ZjMiLCJ1c2VybmFtZSI6ImRhYmFkIiwibmFtZSI6IkRlbmlzIiwiaWF0IjoxNzA5Mjk5MTcxLCJleHAiOjE3MDkzMDk5NzF9.S_d1aLoX_6M1XaVpLSiZHR8xdseihqrAjIoJhGbGxME",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "authorization",
+                        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWRmYzNjYWVkNmVmN2ZjMzYzMGQ2ZjgiLCJ1c2VybmFtZSI6InNzYW50b3MiLCJuYW1lIjoiU2ViYXN0aWFuIiwiaWF0IjoxNzA5Mjk5OTkwLCJleHAiOjE3MDkzMTA3OTB9.iDl00rF08tGERte2xeWSjZh56bh9BA5FBfyVv9IU0Y0"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "b8f5ec95-2562-4358-8177-766e340e0c1b",
+            "name": "ADMIN",
+            "containerId": "",
+            "created": "2024-03-01T17:36:28.945Z",
+            "sortNum": 20000,
+            "settings": {
+                "headers": [
+                    {
+                        "name": "authorization",
+                        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWRlYmExZjFlZTY4MGUxNDYxM2Y1ZjMiLCJ1c2VybmFtZSI6ImRhYmFkIiwibmFtZSI6IkRlbmlzIiwiaWF0IjoxNzA5MzAyNDY2LCJleHAiOjE3MDkzMTMyNjZ9.eUssDhBqpwKSiUJ9d3teNTGI-RaPPjBsO0WxMaS0jEY"
+                    }
+                ]
+            }
+        }
+    ],
+    "requests": [
+        {
+            "_id": "880a4106-97c4-4d7e-9228-cdbcb544eb9c",
+            "colId": "e8ddba23-928e-4179-baff-8c2002a63375",
+            "containerId": "b8f5ec95-2562-4358-8177-766e340e0c1b",
+            "name": "test Comentary",
+            "url": "localhost:4000/testCom",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-03-01T17:36:28.944Z",
+            "modified": "2024-03-01T17:36:28.944Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "00ae7d2c-6b7c-41c4-92a9-2fc6b37c3ae3",
+            "colId": "e8ddba23-928e-4179-baff-8c2002a63375",
+            "containerId": "",
+            "name": "Register user",
+            "url": "localhost:4000/registerUser",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-01T17:36:28.948Z",
+            "modified": "2024-03-01T17:37:48.848Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Denis"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "Abad"
+                    },
+                    {
+                        "name": "username",
+                        "value": "dabad"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    },
+                    {
+                        "name": "email",
+                        "value": "dabad-2021374@kinal.edu.gt"
+                    },
+                    {
+                        "name": "phone",
+                        "value": "44913932"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "aeceadcb-f92a-4486-8868-02249abd35c3",
+            "colId": "e8ddba23-928e-4179-baff-8c2002a63375",
+            "containerId": "",
+            "name": "Login",
+            "url": "localhost:4000/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-03-01T17:36:28.949Z",
+            "modified": "2024-03-01T17:37:58.507Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "username",
+                        "value": "dabad"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    },
+                    {
+                        "name": "email",
+                        "value": "dabad-2021374@kinal.edu.gt",
+                        "isDisabled": true
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "bc8dab64-24cb-48e8-a059-25fe6b801422",
+            "colId": "e8ddba23-928e-4179-baff-8c2002a63375",
+            "containerId": "b8f5ec95-2562-4358-8177-766e340e0c1b",
+            "name": "test publication",
+            "url": "localhost:4000/testP",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-03-01T17:36:28.959Z",
+            "modified": "2024-03-01T17:36:28.959Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c2169762-3798-4f1b-bc9c-0bcd8e35c151",
+            "colId": "e8ddba23-928e-4179-baff-8c2002a63375",
+            "containerId": "e93f111b-8b7e-4f75-bc2b-224a9080bc48",
+            "name": "Update User",
+            "url": "localhost:4000/updateUser/65e11d332e25fc94f38411df",
+            "method": "PUT",
+            "sortNum": 26250,
+            "created": "2024-03-01T17:36:28.956Z",
+            "modified": "2024-03-01T17:39:35.483Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Denis"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "Santos"
+                    },
+                    {
+                        "name": "username",
+                        "value": "dabad"
+                    },
+                    {
+                        "name": "email",
+                        "value": "dabad-2021374@kinal.edu.gt"
+                    },
+                    {
+                        "name": "phone",
+                        "value": "44913932"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "4b640b2f-9aad-4ef7-b010-c3f01d2e9a98",
+            "colId": "e8ddba23-928e-4179-baff-8c2002a63375",
+            "containerId": "e93f111b-8b7e-4f75-bc2b-224a9080bc48",
+            "name": "save Category",
+            "url": "localhost:4000/saveCategory",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-03-01T17:36:28.945Z",
+            "modified": "2024-03-01T17:36:28.945Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Cosmeticos"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Categoria de cosmeticos"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "210b1615-0194-439c-a6ca-47772effd5e4",
+            "colId": "e8ddba23-928e-4179-baff-8c2002a63375",
+            "containerId": "b8f5ec95-2562-4358-8177-766e340e0c1b",
+            "name": "test Category",
+            "url": "localhost:4000/testC",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-03-01T17:36:28.960Z",
+            "modified": "2024-03-01T17:36:28.960Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "68ff6b71-6a75-4370-9060-ed17929fd55c",
+            "colId": "e8ddba23-928e-4179-baff-8c2002a63375",
+            "containerId": "e93f111b-8b7e-4f75-bc2b-224a9080bc48",
+            "name": "save publication",
+            "url": "localhost:4000/savePubli",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-03-01T17:36:28.946Z",
+            "modified": "2024-03-01T17:36:28.946Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "title",
+                        "value": "NUEVA TIENDA DE COSMETICA"
+                    },
+                    {
+                        "name": "textMain",
+                        "value": "Cuida tu cara de una buena forma"
+                    },
+                    {
+                        "name": "category",
+                        "value": "65e1d707a3ddb2cdd83cf31e"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "e92d446f-dd58-4662-be7f-2c24c311ce2d",
+            "colId": "e8ddba23-928e-4179-baff-8c2002a63375",
+            "containerId": "e93f111b-8b7e-4f75-bc2b-224a9080bc48",
+            "name": "deletePubli",
+            "url": "localhost:4000/deletePubli/65e1d8621f8d54ea9eae0202",
+            "method": "DELETE",
+            "sortNum": 45000,
+            "created": "2024-03-01T17:36:28.950Z",
+            "modified": "2024-03-01T17:36:28.950Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c18565ce-c32f-49e3-8131-0e23698bdc14",
+            "colId": "e8ddba23-928e-4179-baff-8c2002a63375",
+            "containerId": "e93f111b-8b7e-4f75-bc2b-224a9080bc48",
+            "name": "update publication",
+            "url": "localhost:4000/updatePubli/65e1da1f1f8d54ea9eae023d",
+            "method": "PUT",
+            "sortNum": 47500,
+            "created": "2024-03-01T17:36:28.951Z",
+            "modified": "2024-03-01T17:36:28.951Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "title",
+                        "value": "Nueva tienda de cosmeticos"
+                    },
+                    {
+                        "name": "textMain",
+                        "value": "cosmeticos nuevos"
+                    },
+                    {
+                        "name": "category",
+                        "value": "65deb77f593a972200e67ab0"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "f017421b-0abe-421d-b7d7-e00bcb67fa59",
+            "colId": "e8ddba23-928e-4179-baff-8c2002a63375",
+            "containerId": "e93f111b-8b7e-4f75-bc2b-224a9080bc48",
+            "name": "save comment",
+            "url": "localhost:4000/saveComment",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-03-01T17:36:28.947Z",
+            "modified": "2024-03-01T17:36:28.947Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "comment",
+                        "value": "No"
+                    },
+                    {
+                        "name": "publication",
+                        "value": "65e1da1f1f8d54ea9eae023d"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "233d7edc-929c-4f45-970a-1cc764192244",
+            "colId": "e8ddba23-928e-4179-baff-8c2002a63375",
+            "containerId": "e93f111b-8b7e-4f75-bc2b-224a9080bc48",
+            "name": "delete Comment",
+            "url": "localhost:4000/deleteComment/65e1daff1f8d54ea9eae024a",
+            "method": "DELETE",
+            "sortNum": 65000,
+            "created": "2024-03-01T17:36:28.952Z",
+            "modified": "2024-03-01T17:36:28.952Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "72ce5653-8df5-4e90-920a-71a216d84604",
+            "colId": "e8ddba23-928e-4179-baff-8c2002a63375",
+            "containerId": "e93f111b-8b7e-4f75-bc2b-224a9080bc48",
+            "name": "update comment",
+            "url": "localhost:4000/updateComment/65e1daff1f8d54ea9eae024a",
+            "method": "PUT",
+            "sortNum": 80000,
+            "created": "2024-03-01T17:36:28.953Z",
+            "modified": "2024-03-01T17:36:28.953Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "comment",
+                        "value": "SI"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "3bf59301-12e5-46af-8b1f-df2ccbcb84f2",
+            "colId": "e8ddba23-928e-4179-baff-8c2002a63375",
+            "containerId": "e93f111b-8b7e-4f75-bc2b-224a9080bc48",
+            "name": "update Password",
+            "url": "localhost:4000/updatePassword",
+            "method": "PUT",
+            "sortNum": 80000,
+            "created": "2024-03-01T17:36:28.954Z",
+            "modified": "2024-03-01T17:36:28.954Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "username",
+                        "value": "dabad"
+                    },
+                    {
+                        "name": "oldPassword",
+                        "value": "12345678"
+                    },
+                    {
+                        "name": "newPassword",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "e8fe996d-e8d7-48c6-9186-98e4275fbe8d",
+            "colId": "e8ddba23-928e-4179-baff-8c2002a63375",
+            "containerId": "e93f111b-8b7e-4f75-bc2b-224a9080bc48",
+            "name": "get Publication and coments",
+            "url": "localhost:4000/getPublication/65e0fab173e0f077083bf4fd",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2024-03-01T17:36:28.955Z",
+            "modified": "2024-03-01T17:36:28.955Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "22d3505e-b2d0-4b1a-b3f3-e524b92626e4",
+            "colId": "e8ddba23-928e-4179-baff-8c2002a63375",
+            "containerId": "e93f111b-8b7e-4f75-bc2b-224a9080bc48",
+            "name": "get Publications and commets",
+            "url": "localhost:4000/getPublications",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2024-03-01T17:36:28.957Z",
+            "modified": "2024-03-01T17:36:28.957Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "62e85386-1824-4a78-8937-2c38136f1df3",
+            "colId": "e8ddba23-928e-4179-baff-8c2002a63375",
+            "containerId": "e93f111b-8b7e-4f75-bc2b-224a9080bc48",
+            "name": "get Categories",
+            "url": "localhost:4000/getCategories",
+            "method": "GET",
+            "sortNum": 110000,
+            "created": "2024-03-01T17:36:28.958Z",
+            "modified": "2024-03-01T17:36:28.958Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
